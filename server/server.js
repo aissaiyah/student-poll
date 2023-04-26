@@ -1,4 +1,4 @@
-require("dotenv").config(); // read the contents of the .env file
+require("dotenv").config({path:__dirname+'/.env'}); // read the contents of the .env file
 const express = require("express"); // load the node.js webserver
 const app = express();
 
